@@ -1,0 +1,68 @@
+/* Apply Arial font and dark background color to the entire body */
+body {
+  font-family: Arial, sans-serif !important;
+  background-color: lightgoldenrodyellow !important;
+}
+
+/* Limit the width of the container and add padding */
+.container {
+  max-width: 1200px !important;
+  padding: 20px !important;
+}
+
+/* Add padding to the navbar */
+.navbar {
+  padding: 10px !important;
+}
+
+/* Add lightcoral background color to list items */
+li {
+  background-color: lightcoral !important;
+}
+
+/* Style cards with lightcoral background color, border-radius, and padding */
+.card {
+  background-color: lightcoral !important;
+  border-radius: 50px !important;
+  padding: 20px !important;
+}
+
+/* Round the corners of card images with a border-radius of 60px */
+.card img {
+  border-radius: 60px;
+}
+
+/* Position the fixed button at the bottom right of the page */
+.fixed-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 999;
+}
+
+/* Style circular buttons with a border-radius of 100%, fixed width and height, centered content */
+.btn-circle {
+  border-radius: 100% !important;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px !important;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Style success buttons with a green background color */
+.btn-success {
+  background-color: #28a745;
+}
+
+.yellowgreen-heading {
+  color: yellowgreen;
+}
+
+.blue-paragraph {
+  color: blue;
+}
+

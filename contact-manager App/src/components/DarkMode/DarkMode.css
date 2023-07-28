@@ -1,0 +1,31 @@
+
+  body.dark-mode-active {
+    background-color: #1a1a1a !important;
+    
+  }
+
+  .dark-mode-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    outline: none;
+  }
+  
+  /* Set the color of the sun and moon icons */
+  .icon-sun {
+    color: orange; /* Yellow color for the sun icon */
+  }
+  
+  .icon-moon {
+    color: black; /* White color for the moon icon */
+  }
+  
+  /* Apply styles to Navbar and Nav links when dark mode is active */
+  .dark-mode-active .navbar {
+    background-color: #343a40; /* Set the background color for the Navbar in dark mode */
+  }
+  
+  .dark-mode-active .nav-link {
+    color: white; /* Set the color to white for Nav links in dark mode */
+  }
